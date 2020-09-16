@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"codegen": "npx playwright-cli codegen http://localhost:4200"
 	},
 	"keywords": [],
 	"author": "",
